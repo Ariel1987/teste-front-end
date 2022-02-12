@@ -30,6 +30,7 @@ export const OptionsWrapper = styled.section`
     display: flex;
     flex-direction: row;
     padding-top: 5vh;
+    flex-wrap: wrap;
 
     div {
       display: flex;

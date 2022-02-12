@@ -11,17 +11,6 @@ export const Wrapper = styled.section`
   `}
 `
 
-export const NavBarWrapper = styled.section`
-  ${({ theme }) => css`
-    display: flex;
-
-    p {
-      padding-right: 40px;
-      color: #9b9b9b;
-    }
-  `}
-`
-
 export const UserWrapper = styled.section`
   ${({ theme }) => css`
     display: flex;
@@ -41,6 +30,5 @@ export const UserWrapper = styled.section`
       color: #f08a2a;
       text-decoration: underline;
     }
-
   `}
 `
