@@ -1,3 +1,4 @@
+import Login from '../Login/Login'
 import Menu from '../Menu/Menu'
 import { LogoutWrapper, Wrapper } from './DropdownMenu.styles'
 
@@ -6,11 +7,7 @@ const DropdownMenu = () => {
     <Wrapper>
       <Menu />
       <LogoutWrapper>
-        <img src="icons/user.png" alt="user-logo" />
-        <div>
-          <p>Igor Gonçalves</p>
-          <button>Desconectar</button>
-        </div>
+        <Login />
       </LogoutWrapper>
     </Wrapper>
   )
