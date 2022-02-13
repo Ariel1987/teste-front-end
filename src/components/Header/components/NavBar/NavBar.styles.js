@@ -2,10 +2,6 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
-    li {
-      display: none;
-    }
-
     img {
       width: 32px;
       height: auto;
@@ -17,25 +13,29 @@ export const Wrapper = styled.section`
     }
 
     @media (min-width: 842px) {
-      ul {
-        display: flex;
-        list-style: none;
-
-        button {
-          display: none;
-        }
+      button {
+        display: none;
       }
 
-      li {
-        display: block;
-        padding-right: 40px;
-        color: #9b9b9b;
+  `}
+`
 
-        :hover {
-          color: #0b0b0b;
-          cursor: pointer;
-        }
-      }
-    }
+export const MenuWrapper = styled.section`
+  ${({ theme }) => css`
+    display: none;
+
+    @media (min-width: 842px) {
+      display: block;
+
+  `}
+`
+
+export const DropDownMenuWrapper = styled.section`
+  ${({ theme }) => css`
+    display: block;
+
+    @media (min-width: 842px) {
+      display: none;
+
   `}
 `

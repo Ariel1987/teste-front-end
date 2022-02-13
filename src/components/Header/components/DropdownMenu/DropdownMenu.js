@@ -1,18 +1,17 @@
-import { Wrapper } from './DropdownMenu.styles'
+import Menu from '../Menu/Menu'
+import { LogoutWrapper, Wrapper } from './DropdownMenu.styles'
 
 const DropdownMenu = () => {
   return (
     <Wrapper>
-      <ul>
-        <li>Home</li>
-        <li>Eventos</li>
-        <li>Usuários</li>
-        <li>Relatórios</li>
-        <li style={{color: '#f08a2a'}}>
-          <img src="icons/user.png" alt="user-logo" />
-          Desconectar
-        </li>
-      </ul>
+      <Menu />
+      <LogoutWrapper>
+        <img src="icons/user.png" alt="user-logo" />
+        <div>
+          <p>Igor Gonçalves</p>
+          <button>Desconectar</button>
+        </div>
+      </LogoutWrapper>
     </Wrapper>
   )
 }

@@ -18,16 +18,28 @@ export const Wrapper = styled.section`
       padding-bottom: 5px;
       border-bottom: solid #ebebeb 1px;
       align-items: center;
-      
-      img {
-        padding-right: 5px;
-      }
 
       :hover {
-
       }
     }
+  `}
+`
 
-    
+export const LogoutWrapper = styled.section`
+  ${({ theme }) => css`
+    display: flex;
+    text-align: end;
+    align-items: center;
+    padding-top: 10px;
+
+    button {
+      color: #f08a2a;
+    }
+
+    img {
+      padding-right: 5px;
+    }
+
+    }
   `}
 `
