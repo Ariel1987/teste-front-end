@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const Line = styled.section`
   ${({ theme }) => css`
-    background-color: #f08a2a;
+    background-color: ${theme.colors.main};
     height: 155px;
     width: 100%;
   `}
@@ -15,7 +15,7 @@ export const Wrapper = styled.section`
     align-items: center;
     margin: 0 auto;
     margin-top: -77px;
-    background-color: white;
+    background-color: ${theme.colors.background};
     width: 80%;
     padding: 24px;
 

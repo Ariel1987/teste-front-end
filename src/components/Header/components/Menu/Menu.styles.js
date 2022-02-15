@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 export const Wrapper = styled.ul`
   ${({ theme }) => css`
     .active {
-      text-decoration: underline #f08a2a;
+      text-decoration: underline ${theme.colors.main};
       text-decoration-thickness: 15%;
       text-underline-offset: 6px;
       color: #3f3f3f;

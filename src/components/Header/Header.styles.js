@@ -7,7 +7,7 @@ export const Wrapper = styled.section`
     align-items: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color: white;
+    background-color: ${theme.colors.background};
   `}
 `
 
@@ -30,7 +30,7 @@ export const LoginWrapper = styled.section`
       button {
         border: none;
         background-color: transparent;
-        color: #f08a2a;
+        color: ${theme.colors.main};
         text-decoration: underline;
       }
     }

@@ -5,9 +5,9 @@ export const Wrapper = styled.section`
     position: absolute;
     top: 12vh;
     right: 10vw;
-    background-color: white;
+    background-color: ${theme.colors.background};
     padding: 20px;
-    border-top: solid #f08a2a;
+    border-top: solid ${theme.colors.main};
     border-radius: 2px;
     box-shadow: 2px 2px #ebebeb;
 
@@ -36,7 +36,7 @@ export const LogoutWrapper = styled.section`
     padding-top: 10px;
 
     button {
-      color: #f08a2a;
+      color: ${theme.colors.main};
     }
 
     img {
