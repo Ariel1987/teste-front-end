@@ -13,7 +13,7 @@ export const Wrapper = styled.section`
 
     li {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
       padding-top: 10px;
       padding-bottom: 5px;
       border-bottom: solid #ebebeb 1px;
