@@ -1,3 +1,9 @@
+#Teste Front End
+
+Esse é um aplicativo simples de organização pessoal, desenvolvido para um processo seletivo. O desafio consistia em replicar a home desse app com a barra de navegação e os links para as páginas de "eventos", "relatórios" e "usuários".
+
+O app foi desenvolvido com ReactJS, estilizado com styled components e as diferentes páginas com react router dom
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
