@@ -19,8 +19,11 @@ export const Wrapper = styled.section`
       border-bottom: solid #ebebeb 1px;
       align-items: center;
 
-      :hover {
+      a {
+        text-decoration: none;
+        color: #9b9b9b;
       }
+
     }
   `}
 `
@@ -38,8 +41,6 @@ export const LogoutWrapper = styled.section`
 
     img {
       padding-right: 5px;
-    }
-
     }
   `}
 `

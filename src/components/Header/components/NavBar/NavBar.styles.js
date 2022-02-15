@@ -26,7 +26,7 @@ export const MenuWrapper = styled.section`
 
     @media (min-width: 842px) {
       display: block;
-
+      flex: 2;
   `}
 `
 

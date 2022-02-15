@@ -2,10 +2,10 @@ import Login from '../Login/Login'
 import Menu from '../Menu/Menu'
 import { LogoutWrapper, Wrapper } from './DropdownMenu.styles'
 
-const DropdownMenu = () => {
+const DropdownMenu = (props) => {
   return (
     <Wrapper>
-      <Menu />
+      <Menu close={props.close}/>
       <LogoutWrapper>
         <Login />
       </LogoutWrapper>

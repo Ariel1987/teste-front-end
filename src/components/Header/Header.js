@@ -5,7 +5,7 @@ import { LoginWrapper, Wrapper } from './Header.styles'
 const Header = () => {
   return (
     <Wrapper>
-      <img src="./icons/logo.png" alt="logo" />
+      <a href='/'><img src="./icons/logo.png" alt="logo" /></a>
       <NavBar />
       <LoginWrapper>
         <Login />

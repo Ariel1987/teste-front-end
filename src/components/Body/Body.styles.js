@@ -3,7 +3,8 @@ import styled, { css } from 'styled-components'
 export const Line = styled.section`
   ${({ theme }) => css`
     background-color: #f08a2a;
-    height: 20vh;
+    height: 155px;
+    width: 100%;
   `}
 `
 
@@ -12,12 +13,11 @@ export const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh;
-    margin-top: -10vh;
-    margin-left: 10vw;
-    z-index: 10;
+    margin: 0 auto;
+    margin-top: -77px;
     background-color: white;
     width: 80%;
+    padding: 24px;
 
     div {
       display: flex;
@@ -33,34 +33,39 @@ export const OptionsWrapper = styled.section`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    padding-top: 5vh;
+    justify-content: space-between;
+    padding-top: 40px;
     flex-wrap: nowrap;
     align-items: initial;
+    gap: 40px;
+    width: 70%;
 
     div {
       display: flex;
       flex-direction: column;
+      flex: 1;
       align-items: center;
-      padding: 80px;
+      padding: 60px;
       border-radius: 32px;
       background-image: linear-gradient(#ffffff, #ebebeb);
       margin-right: 0;
       justify-content: space-between;
-      gap: 20px;
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+      }
 
       p {
         font-weight: ${theme.font.weight.bold};
         color: #4b4b4b;
+        padding-top: 10px;
       }
     }
 
     @media (min-width: 842px) {
       flex-direction: row;
       flex-wrap: wrap;
-
-      div {
-        margin-right: 5vh;
-      }
     }
   `}
 `

@@ -13,7 +13,7 @@ const NavBar = () => {
       </button>
       {openNavBar && (
         <DropDownMenuWrapper>
-          <DropdownMenu />
+          <DropdownMenu close={() => setOpenNavBar(false)} />
         </DropDownMenuWrapper>
       )}
       <MenuWrapper>
